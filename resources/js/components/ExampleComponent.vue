@@ -35,7 +35,7 @@
                                 const body = new FormData();
                                 body.append('file', uploadedFile );
                                 axios( {
-                                    url: 'http://localhost:8000/upload',
+                                    url: '/upload',
                                     method: 'post',
                                     data: body,
                                     headers: {

@@ -1837,7 +1837,7 @@ __webpack_require__.r(__webpack_exports__);
               var body = new FormData();
               body.append('file', uploadedFile);
               axios__WEBPACK_IMPORTED_MODULE_1___default()({
-                url: 'http://localhost:8000/upload',
+                url: '/upload',
                 method: 'post',
                 data: body,
                 headers: {

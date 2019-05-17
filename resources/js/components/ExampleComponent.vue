@@ -40,7 +40,7 @@
                                     data: body,
                                     headers: {
                                         'Content-Type': 'multipart/form-data',
-                                        'X-CSRF-TOKEN': '1biXFyt5Gumh7osbCQDMICASpZ9C0PTTvNE4rDVZ'
+                                        'X-CSRF-TOKEN': window.Laravel.csrfToken
                                     },
                                     withCredentials: false
                                 } ).then( response => {
